@@ -12,8 +12,7 @@ class cs_shope
     void add_product();
     void show_product();
     void check_product();
-    void update_product();
-    void del_product();
+    
 };
     void cs_shope::shope_menue()
     {
@@ -27,7 +26,7 @@ class cs_shope
     	cout<<"\n\n 4.Update Product";
     	cout<<"\n\n 5.Delete Product";
     	cout<<"\n\n 6.Exit";
-	}
+	
 	
 	void cs_shope::add_product()
 	{
@@ -43,7 +42,7 @@ class cs_shope
 		file<<" "<<n_id<<" "<<n_name<<"\n";
 		file.close();
 	}
-	void cs_shope::show_product()
+	 cs_shope::show_product()
 	{
 		system("cls");
 		fstream file;
