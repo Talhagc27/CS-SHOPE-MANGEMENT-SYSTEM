@@ -8,6 +8,7 @@ using namespace std;
 class cs_shope
 {
   public:
+ void update_product();
     void shope_menue();
     void add_product();
     void show_product();
